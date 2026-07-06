@@ -1,21 +1,3 @@
-# var_backend = {
-#   strg_acc1 = {
-#     name                     = "strg_backend_11111"
-#     resource_group_name      = "rg-backend"
-#     location                 = "centralindia"
-#     account_tier             = "Standard"
-#     account_replication_type = "LRS"
-
-#   }
-# }
-
-# var_container = {
-#   tfstate = {
-#     name            = "tfstate"
-#     storage_acc_key = "strg_acc1"
-#   }
-# }
-
 var_rgs = {
   rg1 = {
     name     = "rg1-dev"
